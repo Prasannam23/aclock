@@ -1,10 +1,5 @@
-    
-
-<script>
-
-
-
- let a;
+// we will be using this code for java script section whrre we will be using simple object modules
+let a;
         let date;
         let time;
         const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
@@ -14,4 +9,4 @@
             time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
             document.getElementById('time').innerHTML = time + "<br>on " + date;
         }, 1000);
-    </script>
+   
